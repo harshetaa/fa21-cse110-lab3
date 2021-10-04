@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <head>
+            <title>
+                Pomodoro Meeting Minutes
+            </title>
+            <link rel="icon" type="image/png" sizes="32x32" href="download (1).png">
+            <meta name = "author" content = "Harsheta Cavale">
+            <meta name = "description" content = "These are meeting minutes about a Pomodoro Timer.">
+        </head>
+    </head>
+    <body>
+        <header>
+            <strong><h1>Pomodoro Timer: Meeting 1 Minutes</h1></strong> 
+            <img src="https://vivaldi.com/wp-content/uploads/The_Pomodoro_timer_in_Vivaldi_browser-980x551.png", width="250">
+            <h2>Topic: Brainstorming</h2>
+            <h2>Today's Date: October 1, 2021</h2>
+        </header>
+        <nav>
+            <a href = "#note1">Diagrams</a>
+            <a href = "#note2">Audio Notes</a>
+            <a href = "#note3">Video Notes</a>
+        </nav>
+        <section>
+            <h3>Attendance List</h3>
+                <ol>
+                    <li>Harsheta Cavale</li>
+                    <li>Fake McFakeperson</li>
+                    <li>John Doe</li>
+                </ol>
+        </section>
+        <section>
+            <div class="Agenda">
+                <h3>Agenda</h3>
+                <p>We hope to be on task and <span>productive.</span></p>
+            </div>
+            <h5>Unfinished Business</h5>
+                <ul>
+                    <li>Finalize the meeting schedule</li>
+                    <li>Learn Fun facts about each other</li>
+                    <li>Come up with a team name</li>
+                </ul>
+            <h5>New Business</h5>
+                <ul>
+                    <li>Find a place to meet every week</li>
+                    <li>Come up with team roles</li>
+                </ul>
+            <h5>Questions, Comments Concerns</h5>
+                <ul>
+                    <li>This was a good meeting.</li>
+                    <li>Can we schedule breaks?</li>
+                    <li>We need to make sure we do not get behind.</li>
+                </ul>
+        </section>
+        <hr>
+        <main>
+            <h3 id = "note1">Diagrams</h3>
+            <p>
+                <img src="https://images.ctfassets.net/gg4ddi543f5b/6aSMQ0UqPGKsEUb7FIyGtG/9fbda95768d55017ce8ca7a09c64cc6c/11125686_10206046233538607_1369903866_o-1.jpg", width="200">
+                <img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q1/pomodoro-header.png", width = 200>
+            </p>
+            <h3 id = "note2">Audio Notes</h3>
+            <p>
+                This is audio of the meeting.
+                <audio controls source src="audionotes.m4a" type="audio/m4a"> </audio>
+            </p>
+            <h3 id = "note3">Video Notes</h3>
+            <p>
+                This is a video of the meeting.
+                <video  controls width="250"> <source src="videonotes.MP4" type="video/mp4"> </video>
+            </p>
+            <section>
+                <details>
+                    <summary>Explanation</summary>
+                    <p>
+                        The Pomodoro Technique is "is a time management system that encourages people 
+                        to work with the time they have—rather than against it. Using this method, you 
+                        break your workday into 25-minute chunks separated by five-minute breaks. ... 
+                        After about four pomodoros, you take a longer break of about 15 to 20 minutes."
+                        according to The Muse. Therefore, we will be building a timer that will get you 
+                        on this schedule automatically.
+                    </p>
+                </details>
+            </section>
+        <form>
+            <fieldset>
+                <label for="name">Name (2 to 12 characters):</label>
+                <input type="text" id="name" name="name" required
+                minlength="4" maxlength="8" size="10">
+                <input type="date" id="d" name="d" min="2021-10-03" max="2022-10-03">
+                <br>
+                <p>
+                    What do you identify with?
+                </p>
+                 <input type="checkbox" id="nice" name="nice"
+                 checked>
+                <label for="nice">Nice</label>
+                <input type="checkbox" id="mean" name="mean"
+                 checked>
+                <label for="mean">Mean</label>
+                <input type="checkbox" id="smart" name="smart"
+                 checked>
+                <label for="smart">Smart</label>
+                <br>
+                <label for="story">Tell us about yourself:</label>
+                <br>
+                <textarea id="story" name="story"
+                 rows="5" cols="33">Type fun facts here !
+                </textarea>
+                <br>
+                How many hours do you sleep at night?
+                <label><input type="radio" name="low">1-4</label>
+                <label><input type="radio" name="medium">5-8</label>
+                <label><input type="radio" name="high">9-12</label>
+                <br>
+                <label for="college">What college are you in:</label>
+                <input list="colleges" id="college" name="college" />
+
+                <datalist id="colleges">
+                    <option value="Warren">
+                    <option value="ERC">
+                    <option value="Marshall">
+                    <option value="Revelle">
+                    <option value="Sixth">
+                    <option value="Muir">
+                    <option value="Seventh">
+                </datalist>
+                <br>
+                <label for="living">Where do you live:</label>
+
+                <select name="locations" id="living">
+                    <option value="">--Please choose an option--</option>
+                    <option value="on campus">On Campus</option>
+                    <option value="off campus">Off Campus</option>
+                </select>
+                <br>
+                <button class="submit"
+                 type="button">
+                Submit
+                </button>
+            </fieldset>
+        </form>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
