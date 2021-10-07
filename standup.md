@@ -1,4 +1,4 @@
-#Stand Up Notes
+# Stand Up Notes
 ## Today's Date: 
 ## Attendees
 - Harsheta Cavale 
