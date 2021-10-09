@@ -16,7 +16,7 @@ h1 {
 }
 
 /*font*/
-body {
+* {
   font-family: "Trirong", serif;
 }
 
@@ -52,6 +52,16 @@ section {
   align-items: center;
 }
 
+/*Child Combinator*/
+ul > li {
+  color: rgb(114, 46, 94);
+}
+
+/*attribute selector*/
+a {
+  color: mediumvioletred;
+}
+
 /*text decoration line,margin,color,height*/
 h5 {
   margin: auto;
@@ -64,22 +74,15 @@ h5 {
 main {
   display: inline-block;
   grid-template-rows: auto;
-  row-gap: 1mm;
+  row-gap: 2mm;
   justify-content: center;
 }
 
-/*position*/
-video {
-  position: relative;
-  bottom: 40px;
-  right: 75px;
-}
-
-/*position*/
+/*position, list, ID*/
+video,
 audio {
   position: relative;
   bottom: 20px;
-  right: 75px;
 }
 
 /*responsiveness*/
@@ -97,4 +100,36 @@ details:hover {
 /*psuedo-class*/
 button:active {
   color: rgb(241, 98, 146);
+}
+
+/* General sibling selector*/
+p ~ h3 {
+  background-color: rgb(209, 192, 203);
+}
+
+/*Adjacent sibling combinator */
+form + label {
+  background-color: rgb(219, 89, 252);
+}
+
+/*Class Selector*/
+.Names {
+  color: rgb(250, 0, 125);
+}
+
+/*Descendant Combinator*/
+ul li {
+  color: red;
+  text-decoration-line: underline;
+}
+
+/*Adjacent sibling combinator */
+label + input {
+  border: 5px solid rgb(250, 0, 125);
+}
+
+/*Combining Two Selectors */
+h1.Head {
+  color: red;
+  text-decoration-line: underline;
 }
