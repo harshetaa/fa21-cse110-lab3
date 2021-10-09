@@ -1,0 +1,100 @@
+/*background color*/
+html {
+  background-color: #fff8fa;
+}
+
+/*color, units, borders, text-align*/
+h1 {
+  border-bottom-width: 2px;
+  border-top-width: 0.2cm;
+  border-left-width: 2mm;
+  border-style: solid;
+  border-color: black;
+  border-radius: 1vw;
+  text-align: center;
+  max-width: auto;
+}
+
+/*font*/
+body {
+  font-family: "Trirong", serif;
+}
+
+/*borders, margins padding,, width*/
+h2 {
+  border: 5px solid rgb(250, 0, 125);
+  background-color: mistyrose;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-top: 2mm;
+  padding-bottom: 2mm;
+  padding-left: 10mm;
+  padding-right: 2mm;
+  width: 500px;
+}
+
+/*borders, color, margin, padding, width*/
+h3 {
+  color: #8d1469;
+  border: 5px solid hsl(333, 88%, 85%);
+  margin: 25px 50px 75px 100px;
+  padding: 15px 15px 15px 15px;
+  min-width: auto;
+}
+
+/*flex-box*/
+section {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*text decoration line,margin,color,height*/
+h5 {
+  margin: auto;
+  color: mediumvioletred;
+  text-decoration-line: underline;
+  height: 2mm;
+}
+
+/*grid box*/
+main {
+  display: inline-block;
+  grid-template-rows: auto;
+  row-gap: 1mm;
+  justify-content: center;
+}
+
+/*position*/
+video {
+  position: relative;
+  bottom: 40px;
+  right: 75px;
+}
+
+/*position*/
+audio {
+  position: relative;
+  bottom: 20px;
+  right: 75px;
+}
+
+/*responsiveness*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightpink;
+  }
+}
+
+/*psuedo-class*/
+details:hover {
+  color: lightcoral;
+}
+
+/*psuedo-class*/
+button:active {
+  color: rgb(241, 98, 146);
+}
